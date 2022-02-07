@@ -31,6 +31,7 @@ public class Test {
 				Iterator<Element> ie3 = element.select("span.txt-info").iterator(); //span class = 
 				        
 				while (ie2.hasNext()) {
+					
 					String second = ie2.next().text();
 					System.out.println(ie1.next().text()+"\t"+second+"\t"+ie3.next().text());
 					String path = "C:\\Users\\crlis\\OneDrive\\바탕 화면\\이클립스 실습\\폴더만들기\\" +second; // 폴더 경로
@@ -51,9 +52,5 @@ public class Test {
 				
 				System.out.println("============================================================");
 				
-		for (int i = 0; i < 5; i++) {
-
-			
-		}
 	}
 }
