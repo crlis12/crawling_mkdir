@@ -21,7 +21,7 @@ public class Test {
 					e.printStackTrace();
 				}
 				//select를 이용하여 원하는 태그를 선택한다. select는 원하는 값을 가져오기 위한 중요한 기능이다.
-				Elements element = doc.select("div.sect-movie-chart");    
+				Elements element = doc.select("div.sect-movie-chart");    //div class="sect-movie-chart"
 
 				System.out.println("============================================================");
 
