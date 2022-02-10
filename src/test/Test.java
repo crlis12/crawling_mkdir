@@ -28,7 +28,7 @@ public class Test {
 				//Iterator을 사용하여 하나씩 값 가져오기
 				Iterator<Element> ie1 = element.select("strong.rank").iterator();
 				Iterator<Element> ie2 = element.select("strong.title").iterator();
-				Iterator<Element> ie3 = element.select("span.txt-info").iterator(); //span class = 
+				Iterator<Element> ie3 = element.select("span.txt-info").iterator(); //span class ="txt-info"
 				        
 				while (ie2.hasNext()) {
 					
