@@ -35,7 +35,7 @@ public class Test {
 					String second = ie2.next().text();
 					System.out.println(ie1.next().text()+"\t"+second+"\t"+ie3.next().text());
 					String path = "파일을 생성할 경로" +second; // 폴더 경로
-					File Folder = new File(path);
+					File Folder = new File(path); // 폴더 경로에 새로운 폴더 생성
 
 					// 해당 디렉토리가 없을경우 디렉토리를 생성합니다.
 					if (!Folder.exists()) {
