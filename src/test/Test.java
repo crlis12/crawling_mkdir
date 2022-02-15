@@ -16,7 +16,7 @@ public class Test {
 				Document doc = null;        //Document에는 페이지의 전체 소스가 저장된다
 
 				try {
-					doc = Jsoup.connect(url).get();
+					doc = Jsoup.connect(url).get();	//연결된 url이 문제가 없을 시 변수에 넣어준다.
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
