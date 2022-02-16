@@ -30,7 +30,7 @@ public class Test {
 				Iterator<Element> ie2 = element.select("strong.title").iterator();	//strong class = "title"
 				Iterator<Element> ie3 = element.select("span.txt-info").iterator(); //span class ="txt-info"
 				        
-				while (ie2.hasNext()) {
+				while (ie2.hasNext()) { //ie2 변수에 값이 있을 시 반복
 					
 					String second = ie2.next().text();
 					System.out.println(ie1.next().text()+"\t"+second+"\t"+ie3.next().text());
